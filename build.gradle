@@ -82,7 +82,7 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.all {
-            outputFileName = "Lawnchair ${variant.versionName}.apk"
+            outputFileName = "Loudchain ${variant.versionName}.apk"
         }
     }
 
@@ -150,7 +150,7 @@ android {
 
         lawn {
             dimension "app"
-            applicationId 'app.lawnchair'
+            applicationId 'app.loudchain'
             testApplicationId 'com.android.launcher3.tests'
         }
 
